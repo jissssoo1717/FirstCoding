@@ -5,7 +5,7 @@ public class Member {
 	public static void main(String[] args) {
 		
 		// Chapter01-2
-		System.out.println("이지수");
+		printName();
 		
 		// Chapter02-1
 		String name = "이지수";
@@ -18,6 +18,11 @@ public class Member {
 		System.out.println("키 : " + height); 
 		System.out.println("책 보유 여부 : " + hasBook); 
 
+	}
+	
+	// Chapter01-2
+	static void printName() {
+		System.out.println("이지수");
 	}
 
 }
