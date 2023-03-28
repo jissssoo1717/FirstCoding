@@ -1,4 +1,4 @@
-package FirstJava;
+package firstJava;
 
 public class Person {
 
