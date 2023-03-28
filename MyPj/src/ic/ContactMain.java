@@ -57,6 +57,8 @@ public class ContactMain {
 		// 데이터 수정 후 정보 출력 메소드 재실행
 		contact.printInfo();
 		
+		in.close();
+		
 	}
 
 }
