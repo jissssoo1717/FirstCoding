@@ -12,6 +12,7 @@ public class ContactMain {
 		Contact contact = new Contact("Kim", "5월 5일", "010-1234-5678", 
 				"aaa@gmail.com", "Seoul", "그룹");
 
+		
 		// 변수 값을 반환하는 각각의 메소드 호출하여 출력문으로 출력
 		System.out.println(contact.getName());
 		System.out.println(contact.getBirth());
